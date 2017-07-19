@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ config('app.locale') }}">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -88,6 +89,10 @@
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
+                </div>
+                <div ng-app="">
+                    <p>Name: <input type="text" ng-model="name"></p>
+                    <p ng-bind="name"></p>
                 </div>
             </div>
         </div>
