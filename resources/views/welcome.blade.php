@@ -127,7 +127,9 @@
             <accordion close-others="true">
                 <accordion-group ng-repeat="group in groups | filter:Keyword">
                     <accordion-heading>
-                        <img src="https://image.freepik.com/free-vector/pirate-simple_17-1111184221.jpg" width="20px" height="20px"> [[ group.title ]]
+                        <img src="https://image.freepik.com/free-vector/pirate-simple_17-1111184221.jpg" width="20px" height="20px">
+                        <img src="{{URL::asset('/test.jpg')}}" alt="fail" width="20px" height="20px">
+                        [[ group.title ]]
                     </accordion-heading>
                     <span ng-bind="group.content"></span>
                 </accordion-group>
