@@ -68,56 +68,10 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-
-            .trying {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-            }
         </style>
 
         <!-- Scripts -->
-        <script>
-            var app = angular.module("myApp", ['ui.bootstrap'], function($interpolateProvider) {
-                $interpolateProvider.startSymbol('[[');
-                $interpolateProvider.endSymbol(']]');
-            });
-
-            app.controller("myCtrl", function($scope) {
-                $scope.firstName = "John";
-                $scope.lastName = "Doe";
-                $scope.groups = [
-                    {
-                        title: "Bulbasaur",
-                        content: "Dynamic Group Body - 1"
-                    },
-                    {
-                        title: "Ivysaur",
-                        content: "Dynamic Group Body - 2"
-                    },
-                    {
-                        title: "Venusaur",
-                        content: "Dynamic Group Body - 3"
-                    },
-                    {
-                        title: "Charmender",
-                        content: "Dynamic Group Body - 4"
-                    },
-                    {
-                        title: "Charmeleon",
-                        content: "Dynamic Group Body - 5"
-                    },
-                    {
-                        title: "Charizard",
-                        content: "Dynamic Group Body - 6"
-                    }
-                ];
-            });
-        </script>
+        <script type="text/javascript" src="{{ URL::asset('js/myScript.js') }}"></script>
     </head>
     <body ng-app="myApp">
 
@@ -125,13 +79,15 @@
             <input type="text" ng-model="Keyword" placeholder="Search"/>
 
             <accordion close-others="true">
-                <accordion-group ng-repeat="group in groups | filter:Keyword">
+                <accordion-group ng-repeat="group in pokemon | filter:Keyword">
                     <accordion-heading>
-                        <img src="https://image.freepik.com/free-vector/pirate-simple_17-1111184221.jpg" width="20px" height="20px">
-                        <img src="{{URL::asset('/test.jpg')}}" alt="fail" width="20px" height="20px">
-                        [[ group.title ]]
+                        <img src="{{URL::asset("[[group.sprite]]")}}" alt="no_image" width="40px" height="40px">
+                        #[[ group.id ]] [[ group.name ]]
                     </accordion-heading>
-                    <span ng-bind="group.content"></span>
+                    <h1>[[ group.name ]]</h1>
+                    <br>
+                    <img src="{{URL::asset("[[group.image]]")}}" alt="no_image" width="300px" height="300px">
+                    <p>[[ group.description ]]</p>
                 </accordion-group>
             </accordion>
         </div>
@@ -159,14 +115,6 @@
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-
-                <div class="trying" ng-controller="myCtrl">
-
-                    <p>Enter first name:<input type="text" ng-model="firstName"></p>
-                    <p>Enter last name:<input type="text" ng-model="lastName"></p>
-                    <p>The full name is: <span ng-bind="firstName + ' ' + lastName"></span></p>
-
                 </div>
             </div>
         </div>
