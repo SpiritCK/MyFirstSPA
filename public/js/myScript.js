@@ -300,7 +300,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/016Pidgey.png",
             sprite: "image/spr/016MS.png",
-            description: ""
+            description: "A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand."
         },
         {
             base: {
@@ -319,7 +319,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/017Pidgeotto.png",
             sprite: "image/spr/017MS.png",
-            description: ""
+            description: "Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder."
         },
         {
             base: {
@@ -338,7 +338,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/018Pidgeot.png",
             sprite: "image/spr/018MS.png",
-            description: ""
+            description: "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp."
         },
         {
             base: {
@@ -356,7 +356,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/019Rattata.png",
             sprite: "image/spr/019MS.png",
-            description: ""
+            description: "Bites anything when it attacks. Small and very quick, it is a common sight in many places."
         },
         {
             base: {
@@ -374,7 +374,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/020Raticate.png",
             sprite: "image/spr/020MS.png",
-            description: ""
+            description: "It uses its whiskers to maintain its balance. It apparently slows down if they are cut off."
         },
         {
             base: {
@@ -393,7 +393,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/021Spearow.png",
             sprite: "image/spr/021MS.png",
-            description: ""
+            description: "Eats bugs in grassy areas. It has to flap its short wings at high speed to stay airborne."
         },
         {
             base: {
@@ -412,7 +412,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/022Fearow.png",
             sprite: "image/spr/022MS.png",
-            description: ""
+            description: "With its huge and magnificent wings, it can keep aloft without ever having to land for rest."
         },
         {
             base: {
@@ -430,7 +430,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/023Ekans.png",
             sprite: "image/spr/023MS.png",
-            description: ""
+            description: "Moves silently and stealthily. Eats the eggs of birds, such as Pidgey and Spearow, whole."
         },
         {
             base: {
@@ -448,7 +448,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/024Arbok.png",
             sprite: "image/spr/024MS.png",
-            description: ""
+            description: "It is rumored that the ferocious warning markings on its belly differ from area to area."
         },
         {
             base: {
@@ -466,7 +466,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/025Pikachu.png",
             sprite: "image/spr/025MS.png",
-            description: ""
+            description: "When several of these Pokémon gather, their electricity could build and cause lightning storms."
         },
         {
             base: {
@@ -484,7 +484,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/026Raichu.png",
             sprite: "image/spr/026MS.png",
-            description: ""
+            description: "Its long tail serves as a ground to protect itself from its own high voltage power."
         },
         {
             base: {
@@ -502,7 +502,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/027Sandshrew.png",
             sprite: "image/spr/027MS.png",
-            description: ""
+            description: "Burrows deep underground in arid locations far from water. It only emerges to hunt for food."
         },
         {
             base: {
@@ -520,7 +520,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/028Sandslash.png",
             sprite: "image/spr/028MS.png",
-            description: ""
+            description: "Curls up into a spiny ball when threatened. It can roll while curled up to attack or escape."
         },
         {
             base: {
@@ -538,7 +538,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/029Nidoran.png",
             sprite: "image/spr/029MS.png",
-            description: ""
+            description: "Although small, its venomous barbs render this Pokémon dangerous. The female has smaller horns."
         },
         {
             base: {
@@ -556,7 +556,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/030Nidorina.png",
             sprite: "image/spr/030MS.png",
-            description: ""
+            description: "The female's horn develops slowly. Prefers physical attacks such as clawing and biting."
         },
         {
             base: {
@@ -575,7 +575,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/031Nidoqueen.png",
             sprite: "image/spr/031MS.png",
-            description: ""
+            description: "Its hard scales provide strong protection. It uses its hefty bulk to execute powerful moves."
         },
         {
             base: {
@@ -593,7 +593,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/032Nidoran.png",
             sprite: "image/spr/032MS.png",
-            description: ""
+            description: "Stiffens its ears to sense danger. The larger its horns, the more powerful its secreted venom."
         },
         {
             base: {
@@ -611,7 +611,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/033Nidorino.png",
             sprite: "image/spr/033MS.png",
-            description: ""
+            description: "An aggressive Pokémon that is quick to attack. The horn on its head secretes a powerful venom."
         },
         {
             base: {
@@ -630,7 +630,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/034Nidoking.png",
             sprite: "image/spr/034MS.png",
-            description: ""
+            description: "It uses its powerful tail in battle to smash, constrict, then break the prey's bones."
         },
         {
             base: {
@@ -648,7 +648,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/035Clefairy.png",
             sprite: "image/spr/035MS.png",
-            description: ""
+            description: "Its magical and cute appeal has many admirers. It is rare and found only in certain areas."
         },
         {
             base: {
@@ -666,7 +666,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/036Clefable.png",
             sprite: "image/spr/036MS.png",
-            description: ""
+            description: "A timid fairy Pokémon that is rarely seen. It will run and hide the moment it senses people."
         },
         {
             base: {
@@ -684,7 +684,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/037Vulpix.png",
             sprite: "image/spr/037MS.png",
-            description: ""
+            description: "At the time of birth, it has just one tail. The tail splits from its tip as it grows older."
         },
         {
             base: {
@@ -702,7 +702,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/038Ninetales.png",
             sprite: "image/spr/038MS.png",
-            description: ""
+            description: "Very smart and very vengeful. Grabbing one of its many tails could result in a 1000-year curse."
         },
         {
             base: {
@@ -721,7 +721,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/039Jigglypuff.png",
             sprite: "image/spr/039MS.png",
-            description: ""
+            description: "When its huge eyes light up, it sings a mysteriously soothing melody that lulls its enemies to sleep."
         },
         {
             base: {
@@ -740,7 +740,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/040Wigglytuff.png",
             sprite: "image/spr/040MS.png",
-            description: ""
+            description: "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size."
         },
         {
             base: {
@@ -759,7 +759,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/041Zubat.png",
             sprite: "image/spr/041MS.png",
-            description: ""
+            description: "Forms colonies in perpetually dark places. Uses ultrasonic waves to identify and approach targets."
         },
         {
             base: {
@@ -778,7 +778,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/042Golbat.png",
             sprite: "image/spr/042MS.png",
-            description: ""
+            description: "Once it strikes, it will not stop draining energy from the victim even if it gets too heavy to fly."
         },
         {
             base: {
@@ -797,7 +797,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/043Oddish.png",
             sprite: "image/spr/043MS.png",
-            description: ""
+            description: "During the day, it keeps its face buried in the ground. At night, it wanders around sowing its seeds."
         },
         {
             base: {
@@ -816,7 +816,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/044Gloom.png",
             sprite: "image/spr/044MS.png",
-            description: ""
+            description: "The fluid that oozes from its mouth isn't drool. It is a nectar that is used to attract prey."
         },
         {
             base: {
@@ -835,7 +835,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/045Vileplume.png",
             sprite: "image/spr/045MS.png",
-            description: ""
+            description: "The larger its petals, the more toxic pollen it contains. Its big head is heavy and hard to hold up."
         },
         {
             base: {
@@ -854,7 +854,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/046Paras.png",
             sprite: "image/spr/046MS.png",
-            description: ""
+            description: "Burrows to suck tree roots. The mushrooms on its back grow by drawing nutrients from the bug host."
         },
         {
             base: {
@@ -873,7 +873,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/047Parasect.png",
             sprite: "image/spr/047MS.png",
-            description: ""
+            description: "A host-parasite pair in which the parasite mushroom has taken over the host bug. Prefers damp places."
         },
         {
             base: {
@@ -892,7 +892,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/048Venonat.png",
             sprite: "image/spr/048MS.png",
-            description: ""
+            description: "Lives in the shadows of tall trees where it eats insects. It is attracted by light at night."
         },
         {
             base: {
@@ -911,7 +911,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/049Venomoth.png",
             sprite: "image/spr/049MS.png",
-            description: ""
+            description: "The dust-like scales covering its wings are color coded to indicate the kinds of poison it has."
         },
         {
             base: {
@@ -929,7 +929,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/050Diglett.png",
             sprite: "image/spr/050MS.png",
-            description: ""
+            description: "Lives about one yard underground where it feeds on plant roots. It sometimes appears above ground."
         },
         {
             base: {
@@ -947,7 +947,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/051Dugtrio.png",
             sprite: "image/spr/051MS.png",
-            description: ""
+            description: "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground."
         },
         {
             base: {
@@ -965,7 +965,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/052Meowth.png",
             sprite: "image/spr/052MS.png",
-            description: ""
+            description: "Adores circular objects. Wanders the streets on a nightly basis to look for dropped loose change."
         },
         {
             base: {
@@ -983,7 +983,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/053Persian.png",
             sprite: "image/spr/053MS.png",
-            description: ""
+            description: "Although its fur has many admirers, it is tough to raise as a pet because of its fickle meanness."
         },
         {
             base: {
@@ -1001,7 +1001,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/054Psyduck.png",
             sprite: "image/spr/054MS.png",
-            description: ""
+            description: "While lulling its enemies with its vacant look, this wily Pokémon will use psychokinetic powers."
         },
         {
             base: {
@@ -1019,7 +1019,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/055Golduck.png",
             sprite: "image/spr/055MS.png",
-            description: ""
+            description: "Often seen swimming elegantly by lake shores. It is often mistaken for the Japanese monster, Kappa."
         },
         {
             base: {
@@ -1037,7 +1037,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/056Mankey.png",
             sprite: "image/spr/056MS.png",
-            description: ""
+            description: "Extremely quick to anger. It could be docile one moment then thrashing away the next instant."
         },
         {
             base: {
@@ -1055,7 +1055,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/057Primeape.png",
             sprite: "image/spr/057MS.png",
-            description: ""
+            description: "Always furious and tenacious to boot. It will not abandon chasing its quarry until it is caught."
         },
         {
             base: {
@@ -1073,7 +1073,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/058Growlithe.png",
             sprite: "image/spr/058MS.png",
-            description: ""
+            description: "Very protective of its territory. It will bark and bite to repel intruders from its space."
         },
         {
             base: {
@@ -1091,7 +1091,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/059Arcanine.png",
             sprite: "image/spr/059MS.png",
-            description: ""
+            description: "A Pokémon that has been admired since the past for its beauty. It runs agilely as if on wings."
         },
         {
             base: {
@@ -1109,7 +1109,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/060Poliwag.png",
             sprite: "image/spr/060MS.png",
-            description: ""
+            description: "Its newly grown legs prevent it from running. It appears to prefer swimming than trying to stand."
         },
         {
             base: {
@@ -1127,7 +1127,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/061Poliwhirl.png",
             sprite: "image/spr/061MS.png",
-            description: ""
+            description: "Capable of living in or out of water. When out of water, it sweats to keep its body slimy."
         },
         {
             base: {
@@ -1146,7 +1146,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/062Poliwrath.png",
             sprite: "image/spr/062MS.png",
-            description: ""
+            description: "An adept swimmer at both the front crawl and breast stroke. Easily overtakes the best human swimmers."
         },
         {
             base: {
@@ -1164,7 +1164,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/063Abra.png",
             sprite: "image/spr/063MS.png",
-            description: ""
+            description: "Using its ability to read minds, it will identify impending danger and Teleport to safety."
         },
         {
             base: {
@@ -1182,7 +1182,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/064Kadabra.png",
             sprite: "image/spr/064MS.png",
-            description: ""
+            description: "It emits special alpha waves from its body that induce headaches just by being close by."
         },
         {
             base: {
@@ -1200,7 +1200,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/065Alakazam.png",
             sprite: "image/spr/065MS.png",
-            description: ""
+            description: "Its brain can outperform a super-computer. Its intelligence quotient is said to be 5,000."
         },
         {
             base: {
@@ -1218,7 +1218,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/066Machop.png",
             sprite: "image/spr/066MS.png",
-            description: ""
+            description: "Loves to build its muscles. It trains in all styles of martial arts to become even stronger."
         },
         {
             base: {
@@ -1236,7 +1236,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/067Machoke.png",
             sprite: "image/spr/067MS.png",
-            description: ""
+            description: "Its muscular body is so powerful, it must wear a power save belt to be able to regulate its motions."
         },
         {
             base: {
@@ -1254,7 +1254,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/068Machamp.png",
             sprite: "image/spr/068MS.png",
-            description: ""
+            description: "Using its heavy muscles, it throws powerful punches that can send the victim clear over the horizon."
         },
         {
             base: {
@@ -1273,7 +1273,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/069Bellsprout.png",
             sprite: "image/spr/069MS.png",
-            description: ""
+            description: "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture."
         },
         {
             base: {
@@ -1292,7 +1292,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/070Weepinbell.png",
             sprite: "image/spr/070MS.png",
-            description: ""
+            description: "It spits out PoisonPowder to immobilize the enemy and then finishes it with a spray of Acid."
         },
         {
             base: {
@@ -1311,7 +1311,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/071Victreebel.png",
             sprite: "image/spr/071MS.png",
-            description: ""
+            description: "Said to live in huge colonies deep in jungles, although no one has ever returned from there."
         },
         {
             base: {
@@ -1330,7 +1330,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/072Tentacool.png",
             sprite: "image/spr/072MS.png",
-            description: ""
+            description: "Drifts in shallow seas. Anglers who hook them by accident are often punished by its stinging acid."
         },
         {
             base: {
@@ -1349,7 +1349,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/073Tentacruel.png",
             sprite: "image/spr/073MS.png",
-            description: ""
+            description: "The tentacles are normally kept short. On hunts, they are extended to ensnare and immobilize prey."
         },
         {
             base: {
@@ -1368,7 +1368,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/074Geodude.png",
             sprite: "image/spr/074MS.png",
-            description: ""
+            description: "Found in fields and mountains. Mistaking them for boulders, people often step or trip on them."
         },
         {
             base: {
@@ -1387,7 +1387,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/075Graveler.png",
             sprite: "image/spr/075MS.png",
-            description: ""
+            description: "Rolls down slopes to move. It rolls over any obstacle without slowing or changing its direction."
         },
         {
             base: {
@@ -1406,7 +1406,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/076Golem.png",
             sprite: "image/spr/076MS.png",
-            description: ""
+            description: "Its boulder-like body is extremely hard. It can easily withstand dynamite blasts without damage."
         },
         {
             base: {
@@ -1424,7 +1424,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/077Ponyta.png",
             sprite: "image/spr/077MS.png",
-            description: ""
+            description: "Its hooves are 10 times harder than diamonds. It can trample anything completely flat in little time."
         },
         {
             base: {
@@ -1442,7 +1442,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/078Rapidash.png",
             sprite: "image/spr/078MS.png",
-            description: ""
+            description: "Very competitive, this Pokémon will chase anything that moves fast in the hopes of racing it."
         },
         {
             base: {
@@ -1461,7 +1461,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/079Slowpoke.png",
             sprite: "image/spr/079MS.png",
-            description: ""
+            description: "Incredibly slow and dopey. It takes 5 seconds for it to feel pain when under attack."
         },
         {
             base: {
@@ -1480,7 +1480,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/080Slowbro.png",
             sprite: "image/spr/080MS.png",
-            description: ""
+            description: "The Shellder that is latched onto Slowpoke's tail is said to feed on the host's left over scraps."
         },
         {
             base: {
@@ -1499,7 +1499,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/081Magnemite.png",
             sprite: "image/spr/081MS.png",
-            description: ""
+            description: "Uses anti-gravity to stay suspended. Appears without warning and uses Thunder Wave and similar moves."
         },
         {
             base: {
@@ -1518,7 +1518,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/082Magneton.png",
             sprite: "image/spr/082MS.png",
-            description: ""
+            description: "Formed by several Magnemites linked together. They frequently appear when sunspots flare up."
         },
         {
             base: {
@@ -1537,7 +1537,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/083Farfetchd.png",
             sprite: "image/spr/083MS.png",
-            description: ""
+            description: "The sprig of green onions it holds is its weapon. It is used much like a metal sword."
         },
         {
             base: {
@@ -1556,7 +1556,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/084Doduo.png",
             sprite: "image/spr/084MS.png",
-            description: ""
+            description: "A bird that makes up for its poor flying with its fast foot speed. Leaves giant footprints."
         },
         {
             base: {
@@ -1575,7 +1575,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/085Dodrio.png",
             sprite: "image/spr/085MS.png",
-            description: ""
+            description: "Uses its three brains to execute complex plans. While two heads sleep, one head stays awake."
         },
         {
             base: {
@@ -1593,7 +1593,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/086Seel.png",
             sprite: "image/spr/086MS.png",
-            description: ""
+            description: "The protruding horn on its head is very hard. It is used for bashing through thick ice."
         },
         {
             base: {
@@ -1612,7 +1612,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/087Dewgong.png",
             sprite: "image/spr/087MS.png",
-            description: ""
+            description: "Stores thermal energy in its body. Swims at a steady 8 knots even in intensely cold waters."
         },
         {
             base: {
@@ -1630,7 +1630,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/088Grimer.png",
             sprite: "image/spr/088MS.png",
-            description: ""
+            description: "Appears in filthy areas. Thrives by sucking up polluted sludge that is pumped out of factories."
         },
         {
             base: {
@@ -1648,7 +1648,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/089Muk.png",
             sprite: "image/spr/089MS.png",
-            description: ""
+            description: "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison."
         },
         {
             base: {
@@ -1666,7 +1666,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/090Shellder.png",
             sprite: "image/spr/090MS.png",
-            description: ""
+            description: "Its hard shell repels any kind of attack. It is vulnerable only when its shell is open."
         },
         {
             base: {
@@ -1685,7 +1685,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/091Cloyster.png",
             sprite: "image/spr/091MS.png",
-            description: ""
+            description: "When attacked, it launches its horns in quick volleys. Its innards have never been seen."
         },
         {
             base: {
@@ -1704,7 +1704,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/092Gastly.png",
             sprite: "image/spr/092MS.png",
-            description: ""
+            description: "Almost invisible, this gaseous Pokémon cloaks the target and puts it to sleep without notice."
         },
         {
             base: {
@@ -1723,7 +1723,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/093Haunter.png",
             sprite: "image/spr/093MS.png",
-            description: ""
+            description: "Because of its ability to slip through block walls, it is said to be from another dimension."
         },
         {
             base: {
@@ -1742,7 +1742,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/094Gengar.png",
             sprite: "image/spr/094MS.png",
-            description: ""
+            description: "Under a full moon, this Pokémon likes to mimic the shadows of people and laugh at their fright."
         },
         {
             base: {
@@ -1761,7 +1761,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/095Onix.png",
             sprite: "image/spr/095MS.png",
-            description: ""
+            description: "As it grows, the stone portions of its body harden to become similar to a diamond, but colored black."
         },
         {
             base: {
@@ -1779,7 +1779,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/096Drowzee.png",
             sprite: "image/spr/096MS.png",
-            description: ""
+            description: "Puts enemies to sleep then eats their dreams. Occasionally gets sick from eating bad dreams."
         },
         {
             base: {
@@ -1797,7 +1797,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/097Hypno.png",
             sprite: "image/spr/097MS.png",
-            description: ""
+            description: "When it locks eyes with an enemy, it will use a mix of PSI moves such as Hypnosis and Confusion."
         },
         {
             base: {
@@ -1815,7 +1815,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/098Krabby.png",
             sprite: "image/spr/098MS.png",
-            description: ""
+            description: "Its pincers are not only powerful weapons, they are used for balance when walking sideways."
         },
         {
             base: {
@@ -1833,7 +1833,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/099Kingler.png",
             sprite: "image/spr/099MS.png",
-            description: ""
+            description: "The large pincer has 10000 hp of crushing power. However, its huge size makes it unwieldy to use."
         },
         {
             base: {
@@ -1851,7 +1851,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/100Voltorb.png",
             sprite: "image/spr/100MS.png",
-            description: ""
+            description: "Usually found in power plants. Easily mistaken for a Poké Ball, they have zapped many people."
         },
         {
             base: {
@@ -1869,7 +1869,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/101Electrode.png",
             sprite: "image/spr/101MS.png",
-            description: ""
+            description: "It stores electric energy under very high pressure. It often explodes with little or no provocation."
         },
         {
             base: {
@@ -1888,7 +1888,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/102Exeggcute.png",
             sprite: "image/spr/102MS.png",
-            description: ""
+            description: "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms."
         },
         {
             base: {
@@ -1907,7 +1907,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/103Exeggutor.png",
             sprite: "image/spr/103MS.png",
-            description: ""
+            description: "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute."
         },
         {
             base: {
@@ -1925,7 +1925,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/104Cubone.png",
             sprite: "image/spr/104MS.png",
-            description: ""
+            description: "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face."
         },
         {
             base: {
@@ -1943,7 +1943,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/105Marowak.png",
             sprite: "image/spr/105MS.png",
-            description: ""
+            description: "The bone it holds is its key weapon. It throws the bone skillfully like a boomerang to KO targets."
         },
         {
             base: {
@@ -1961,7 +1961,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/106Hitmonlee.png",
             sprite: "image/spr/106MS.png",
-            description: ""
+            description: "When in a hurry, its legs lengthen progressively. It runs smoothly with extra long, loping strides."
         },
         {
             base: {
@@ -1979,7 +1979,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/107Hitmonchan.png",
             sprite: "image/spr/107MS.png",
-            description: ""
+            description: "While apparently doing nothing, it fires punches in lightning fast volleys that are impossible to see."
         },
         {
             base: {
@@ -1997,7 +1997,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/108Lickitung.png",
             sprite: "image/spr/108MS.png",
-            description: ""
+            description: "Its tongue can be extended like a chameleon's. It leaves a tingling sensation when it licks enemies."
         },
         {
             base: {
@@ -2015,7 +2015,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/109Koffing.png",
             sprite: "image/spr/109MS.png",
-            description: ""
+            description: "Because it stores several kinds of toxic gases in its body, it is prone to exploding without warning."
         },
         {
             base: {
@@ -2033,7 +2033,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/110Weezing.png",
             sprite: "image/spr/110MS.png",
-            description: ""
+            description: "Where two kinds of poison gases meet, 2 Koffings can fuse into a Weezing over many years."
         },
         {
             base: {
@@ -2052,7 +2052,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/111Rhyhorn.png",
             sprite: "image/spr/111MS.png",
-            description: ""
+            description: "Its massive bones are 1000 times harder than human bones. It can easily knock a trailer flying."
         },
         {
             base: {
@@ -2071,7 +2071,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/112Rhydon.png",
             sprite: "image/spr/112MS.png",
-            description: ""
+            description: "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees."
         },
         {
             base: {
@@ -2089,7 +2089,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/113Chansey.png",
             sprite: "image/spr/113MS.png",
-            description: ""
+            description: "A rare and elusive Pokémon that is said to bring happiness to those who manage to get it."
         },
         {
             base: {
@@ -2107,7 +2107,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/114Tangela.png",
             sprite: "image/spr/114MS.png",
-            description: ""
+            description: "The whole body is swathed with wide vines that are similar to seaweed. Its vines shake as it walks."
         },
         {
             base: {
@@ -2125,7 +2125,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/115Kangaskhan.png",
             sprite: "image/spr/115MS.png",
-            description: ""
+            description: "The infant rarely ventures out of its mother's protective pouch until it is 3 years old."
         },
         {
             base: {
@@ -2143,7 +2143,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/116Horsea.png",
             sprite: "image/spr/116MS.png",
-            description: ""
+            description: "Known to shoot down flying bugs with precision blasts of ink from the surface of the water."
         },
         {
             base: {
@@ -2161,7 +2161,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/117Seadra.png",
             sprite: "image/spr/117MS.png",
-            description: ""
+            description: "Capable of swimming backwards by rapidly flapping its wing-like pectoral fins and stout tail."
         },
         {
             base: {
@@ -2179,7 +2179,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/118Goldeen.png",
             sprite: "image/spr/118MS.png",
-            description: ""
+            description: "Its tail fin billows like an elegant ballroom dress, giving it the nickname of the Water Queen."
         },
         {
             base: {
@@ -2197,7 +2197,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/119Seaking.png",
             sprite: "image/spr/119MS.png",
-            description: ""
+            description: "In the autumn spawning season, they can be seen swimming powerfully up rivers and creeks."
         },
         {
             base: {
@@ -2215,7 +2215,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/120Staryu.png",
             sprite: "image/spr/120MS.png",
-            description: ""
+            description: "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle."
         },
         {
             base: {
@@ -2234,7 +2234,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/121Starmie.png",
             sprite: "image/spr/121MS.png",
-            description: ""
+            description: "Its central core glows with the seven colors of the rainbow. Some people value the core as a gem."
         },
         {
             base: {
@@ -2253,7 +2253,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/122Mr_Mime.png",
             sprite: "image/spr/122MS.png",
-            description: ""
+            description: "If interrupted while it is miming, it will slap around the offender with its broad hands."
         },
         {
             base: {
@@ -2272,7 +2272,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/123Scyther.png",
             sprite: "image/spr/123MS.png",
-            description: ""
+            description: "With ninja-like agility and speed, it can create the illusion that there is more than one."
         },
         {
             base: {
@@ -2291,7 +2291,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/124Jynx.png",
             sprite: "image/spr/124MS.png",
-            description: ""
+            description: "It seductively wiggles its hips as it walks. It can cause people to dance in unison with it."
         },
         {
             base: {
@@ -2309,7 +2309,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/125Electabuzz.png",
             sprite: "image/spr/125MS.png",
-            description: ""
+            description: "Normally found near power plants, they can wander away and cause major blackouts in cities."
         },
         {
             base: {
@@ -2327,7 +2327,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/126Magmar.png",
             sprite: "image/spr/126MS.png",
-            description: ""
+            description: "Its body always burns with an orange glow that enables it to hide perfectly among flames."
         },
         {
             base: {
@@ -2345,7 +2345,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/127Pinsir.png",
             sprite: "image/spr/127MS.png",
-            description: ""
+            description: "If it fails to crush the victim in its pincers, it will swing it around and toss it hard."
         },
         {
             base: {
@@ -2363,7 +2363,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/128Tauros.png",
             sprite: "image/spr/128MS.png",
-            description: ""
+            description: "When it targets an enemy, it charges furiously while whipping its body with its long tails."
         },
         {
             base: {
@@ -2381,7 +2381,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/129Magikarp.png",
             sprite: "image/spr/129MS.png",
-            description: ""
+            description: "In the distant past, it was somewhat stronger than the horribly weak descendants that exist today."
         },
         {
             base: {
@@ -2400,7 +2400,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/130Gyarados.png",
             sprite: "image/spr/130MS.png",
-            description: ""
+            description: "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage."
         },
         {
             base: {
@@ -2419,7 +2419,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/131Lapras.png",
             sprite: "image/spr/131MS.png",
-            description: ""
+            description: "A Pokémon that has been overhunted almost to extinction. It can ferry people across the water."
         },
         {
             base: {
@@ -2437,7 +2437,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/132Ditto.png",
             sprite: "image/spr/132MS.png",
-            description: ""
+            description: "Capable of copying an enemy's genetic code to instantly transform itself into a duplicate of the enemy."
         },
         {
             base: {
@@ -2455,7 +2455,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/133Eevee.png",
             sprite: "image/spr/133MS.png",
-            description: ""
+            description: "Its genetic code is irregular. It may mutate if it is exposed to radiation from element Stones."
         },
         {
             base: {
@@ -2473,7 +2473,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/134Vaporeon.png",
             sprite: "image/spr/134MS.png",
-            description: ""
+            description: "Lives close to water. Its long tail is ridged with a fin which is often mistaken for a mermaid's."
         },
         {
             base: {
@@ -2491,7 +2491,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/135Jolteon.png",
             sprite: "image/spr/135MS.png",
-            description: ""
+            description: "It accumulates negative ions in the atmosphere to blast out 10000-volt lightning bolts."
         },
         {
             base: {
@@ -2509,7 +2509,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/136Flareon.png",
             sprite: "image/spr/136MS.png",
-            description: ""
+            description: "When storing thermal energy in its body, its temperature could soar to over 1600 degrees."
         },
         {
             base: {
@@ -2527,7 +2527,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/137Porygon.png",
             sprite: "image/spr/137MS.png",
-            description: ""
+            description: "A Pokémon that consists entirely of programming code. Capable of moving freely in cyberspace."
         },
         {
             base: {
@@ -2546,7 +2546,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/138Omanyte.png",
             sprite: "image/spr/138MS.png",
-            description: ""
+            description: "Although long extinct, in rare cases, it can be genetically resurrected from fossils."
         },
         {
             base: {
@@ -2565,7 +2565,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/139Omastar.png",
             sprite: "image/spr/139MS.png",
-            description: ""
+            description: "A prehistoric Pokémon that died out when its heavy shell made it impossible to catch prey."
         },
         {
             base: {
@@ -2584,7 +2584,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/140Kabuto.png",
             sprite: "image/spr/140MS.png",
-            description: ""
+            description: "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago."
         },
         {
             base: {
@@ -2603,7 +2603,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/141Kabutops.png",
             sprite: "image/spr/141MS.png",
-            description: ""
+            description: "Its sleek shape is perfect for swimming. It slashes prey with its claws and drains the body fluids."
         },
         {
             base: {
@@ -2622,7 +2622,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/142Aerodactyl.png",
             sprite: "image/spr/142MS.png",
-            description: ""
+            description: "A ferocious, prehistoric Pokémon that goes for the enemy's throat with its serrated saw-like fangs."
         },
         {
             base: {
@@ -2640,7 +2640,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/143Snorlax.png",
             sprite: "image/spr/143MS.png",
-            description: ""
+            description: "Very lazy. Just eats and sleeps. As its rotund bulk builds, it becomes steadily more slothful."
         },
         {
             base: {
@@ -2659,7 +2659,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/144Articuno.png",
             sprite: "image/spr/144MS.png",
-            description: ""
+            description: "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains."
         },
         {
             base: {
@@ -2678,7 +2678,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/145Zapdos.png",
             sprite: "image/spr/145MS.png",
-            description: ""
+            description: "A legendary bird Pokémon that is said to appear from clouds while dropping enormous lightning bolts."
         },
         {
             base: {
@@ -2697,7 +2697,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/146Moltres.png",
             sprite: "image/spr/146MS.png",
-            description: ""
+            description: "Known as the legendary bird of fire. Every flap of its wings creates a dazzling flash of flames."
         },
         {
             base: {
@@ -2715,7 +2715,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/147Dratini.png",
             sprite: "image/spr/147MS.png",
-            description: ""
+            description: "Long considered a mythical Pokémon until recently when a small colony was found living underwater."
         },
         {
             base: {
@@ -2733,7 +2733,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/148Dragonair.png",
             sprite: "image/spr/148MS.png",
-            description: ""
+            description: "A mystical Pokémon that exudes a gentle aura. Has the ability to change climate conditions."
         },
         {
             base: {
@@ -2752,7 +2752,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/149Dragonite.png",
             sprite: "image/spr/149MS.png",
-            description: ""
+            description: "An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans."
         },
         {
             base: {
@@ -2770,7 +2770,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/150Mewtwo.png",
             sprite: "image/spr/150MS.png",
-            description: ""
+            description: "It was created by a scientist after years of horrific gene splicing and DNA engineering experiments."
         },
         {
             base: {
@@ -2788,7 +2788,7 @@ app.controller("myCtrl", function($scope) {
             ],
             image: "image/img/151Mew.png",
             sprite: "image/spr/151MS.png",
-            description: ""
+            description: "So rare that it is still said to be a mirage by many experts. Only a few people have seen it worldwide."
         }
     ];
 });
