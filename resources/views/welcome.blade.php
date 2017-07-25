@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>My Pokedex</title>
 
         <!-- Dependencies -->
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
@@ -18,55 +18,77 @@
 
         <!-- Styles -->
         <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
-                font-weight: 100;
-                height: 100vh;
-                margin: 0;
+            th, td {
+                padding: 2px;
+                text-align: left;
+            }
+            th#heading {
+                padding: 10px;
+                width: 300px;
+                text-align: center;
+                color:#000;
             }
 
-            .full-height {
-                height: 100vh;
-            }
-
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .position-ref {
-                position: relative;
-            }
-
-            .top-right {
-                position: absolute;
-                right: 10px;
-                top: 18px;
-            }
-
-            .content {
+            .type {
+                font-size: 85%;
+                font: x-small sans-serif;
+                line-height:12px;
+                border-radius: 2px;
                 text-align: center;
             }
-
-            .title {
-                font-size: 84px;
+            .Grass {
+                background: #78C850;
             }
-
-            .links > a {
-                color: #636b6f;
-                padding: 0 25px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
+            .Poison {
+                background: #A040A0;
             }
-
-            .m-b-md {
-                margin-bottom: 30px;
+            .Fire {
+                background: #F08030;
+            }
+            .Flying {
+                background: #A890F0;
+            }
+            .Water {
+                background: #6890F0;
+            }
+            .Bug {
+                background: #A8B820;
+            }
+            .Dark {
+                background: #705848;
+            }
+            .Normal {
+                background: #A8A878;
+            }
+            .Electric {
+                background: #F8D030;
+            }
+            .Psychic {
+                background: #F85888;
+            }
+            .Ground {
+                background: #E0C068;
+            }
+            .Ice {
+                background: #98D8D8;
+            }
+            .Steel {
+                background: #B8B8D0;
+            }
+            .Fairy {
+                background: #EE99AC;
+            }
+            .Fighting {
+                background: #C03028;
+            }
+            .Rock {
+                background: #B8A038;
+            }
+            .Ghost {
+                background: #705898;
+            }
+            .Dragon {
+                background: #7038F8;
             }
         </style>
 
@@ -80,43 +102,124 @@
 
             <accordion close-others="true">
                 <accordion-group ng-repeat="group in pokemon | filter:Keyword">
-                    <accordion-heading>
+                    <accordion-heading style="background-color: #000000">
                         <img src="{{URL::asset("[[group.sprite]]")}}" alt="no_image" width="40px" height="40px">
                         #[[ group.id ]] [[ group.name ]]
                     </accordion-heading>
-                    <h1>[[ group.name ]]</h1>
-                    <br>
-                    <img src="{{URL::asset("[[group.image]]")}}" alt="no_image" width="300px" height="300px">
-                    <p>[[ group.description ]]</p>
+                    <table border="0" style="width: 100%">
+                        <tr>
+                            <th style="text-align: center">
+                                <h1>[[ group.name ]]</h1>
+                                <table border="0" align="center">
+                                    <tr>
+                                        <td class="type [[type]]" width="45px" ng-repeat="type in group.type">
+                                            <span style="color:#FFF;"><b>[[type]]</b></span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="{{URL::asset("[[group.image]]")}}" alt="no_image" width="300px" height="300px" align="left">
+                                <table style="border: 5px solid #000000;" align="right">
+                                    <tbody>
+                                    <tr>
+                                        <th id="heading" class="[[ group.type[0] ]]">Stat</th>
+                                    </tr>
+
+                                    <tr style="background: #FF5959;">
+                                        <td>
+                                            <table border="0" style="background: #FF0000; border: 1px solid #A60000;" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                <tr>
+                                                    <th style="background: #FF5959; width: 75px;"><span style="color:#000;">HP:</span></th>
+                                                    <th style="background: #FF5959; width: 30px;"> [[group.base.hp]]</th>
+                                                    <td style="width: [[group.base.hp]]px;"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+
+                                    <tr style="background: #F5AC78;">
+                                        <td>
+                                            <table style="background: #F08030; border: 1px solid #9C531F;" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                <tr>
+                                                    <th style="background: #F5AC78; width: 75px;"><span style="color:#000;">Attack:</span></th>
+                                                    <th style="background: #F5AC78; width: 30px;"> [[group.base.attack]]</th>
+                                                    <td style="width: [[group.base.attack]]px;"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr style="background: #FAE078;">
+                                        <td>
+                                            <table style="background: #F8D030; border: 1px solid #A1871F;" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                <tr>
+                                                    <th style="background: #FAE078; width: 75px;"><span style="color:#000;">Defense:</span></th>
+                                                    <th style="background: #FAE078; width: 30px;"> [[group.base.defense]]</th>
+                                                    <td style="width: [[group.base.defense]]px;"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr style="background: #9DB7F5;">
+                                        <td>
+                                            <table style="background: #6890F0; border: 1px solid #445E9C;" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                <tr>
+                                                    <th style="background: #9DB7F5; width: 75px;"><span style="color:#000;">Sp.Atk:</span></th>
+                                                    <th style="background: #9DB7F5; width: 30px;"> [[group.base.spAtk]]</th>
+                                                    <td style="width: [[group.base.spAtk]]px;"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr style="background: #A7DB8D;">
+                                        <td>
+                                            <table style="background: #78C850; border: 1px solid #4E8234;" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                <tr>
+                                                    <th style="background: #A7DB8D; width: 75px;"><span style="color:#000;">Sp.Def:</span></th>
+                                                    <th style="background: #A7DB8D; width: 30px;"> [[group.base.spDef]]</th>
+                                                    <td style="width: [[group.base.spDef]]px;"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr style="background: #FA92B2;">
+                                        <td>
+                                            <table style="background: #F85888; border: 1px solid #A13959;" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                <tr>
+                                                    <th style="background: #FA92B2; width: 75px;"><span style="color:#000;">Speed:</span></th>
+                                                    <th style="background: #FA92B2; width: 30px;"> [[group.base.speed]]</th>
+                                                    <td style="width: [[group.base.speed]]px;"></td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>[[ group.description ]]</h3>
+                            </td>
+                        </tr>
+                    </table>
                 </accordion-group>
             </accordion>
         </div>
 
-        <div class="flex-center position-ref full-height" ng-app="">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @if (Auth::check())
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
-                    @endif
-                </div>
-            @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-            </div>
-        </div>
     </body>
 </html>
