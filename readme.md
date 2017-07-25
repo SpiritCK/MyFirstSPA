@@ -1,51 +1,19 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# My Pokedex
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+## About My Pokedex
 
-## About Laravel
+My Pokedex is a Single Page Application, built using Laravel and AngularJS framework, that works like a real pokedex (well, not exactly the same as the original but I hope to improve it in the future). The main feature of this pokedex is the ability to search specific pokemon, and look up its detail without reloading the page like [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page). Obviously, the content isn't nearly as complete as other pokemon database. Which is why, My Pokedex focus on providing information that is needed when you play Pokemon games. For those who don't know about pokedex, Pokedex is a device where you can look up details about creature called Pokemon or Pocket Monster. Pokemon is made by The Pokemon Company.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+As per June 25th 2017, My Pokedex has the following feature:
+- Search pokemon by name
+- Pokemon data up to Johto (First 151 Pokemon)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The following features are still to be updated (not sure when):
+- Search pokemon by type
+- Add details about pokemon (attack type effectivity, evolution and pre-evolution).
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
-
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
-
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## Screenshots
+![screenshot0](https://user-images.githubusercontent.com/23207046/28584009-63c46d0c-7195-11e7-9a07-e413014a3722.png)
+![screenshot1](https://user-images.githubusercontent.com/23207046/28584007-63b3e342-7195-11e7-97d0-e42820f33ea3.png)
+![screenshot2](https://user-images.githubusercontent.com/23207046/28584006-63a9ee1e-7195-11e7-8048-4f9851c0dd57.png)
+![screenshot3](https://user-images.githubusercontent.com/23207046/28584008-63b8752e-7195-11e7-8fad-7474a0eb0b59.png)
