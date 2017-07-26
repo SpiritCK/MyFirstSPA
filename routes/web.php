@@ -16,5 +16,3 @@ Route::get('/', function () {
 });
 
 Route::get('/enter', array('uses'=>'Registration@postRegister'));
-
-Route::get('/test', array('uses'=>'Registration@testRegister'));
