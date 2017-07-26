@@ -42,7 +42,7 @@ For UNIX user, enter the following command to do unit testing
 ```
 
 ## Screenshots
-![screenshot0](https://user-images.githubusercontent.com/23207046/28584009-63c46d0c-7195-11e7-9a07-e413014a3722.png)
-![screenshot1](https://user-images.githubusercontent.com/23207046/28584007-63b3e342-7195-11e7-97d0-e42820f33ea3.png)
-![screenshot2](https://user-images.githubusercontent.com/23207046/28584006-63a9ee1e-7195-11e7-8048-4f9851c0dd57.png)
-![screenshot3](https://user-images.githubusercontent.com/23207046/28584008-63b8752e-7195-11e7-8fad-7474a0eb0b59.png)
+![screenshot_1](https://user-images.githubusercontent.com/23207046/28630312-2f4bb8ea-7254-11e7-9b28-26b3b866e079.png)
+![screenshot_2](https://user-images.githubusercontent.com/23207046/28630313-2f78f242-7254-11e7-98a3-49fc2aedc234.png)
+![screenshot_3](https://user-images.githubusercontent.com/23207046/28630315-2f81c656-7254-11e7-8e89-50ddac837f2a.png)
+![screenshot_4](https://user-images.githubusercontent.com/23207046/28630314-2f815428-7254-11e7-963c-67c3110de699.png)
