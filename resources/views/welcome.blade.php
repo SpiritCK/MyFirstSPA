@@ -148,17 +148,29 @@
     <body ng-app="myApp">
 
         <div ng-controller="myCtrl">
-            <header style="background-image: url('image/background/top.png'); background-size: 100% 100%;">
-                <h1 align="center">My Pokedex</h1>
-                <p>Here, you can search for info about pokemon (&copy Pokemon Company) that you need.</p>
-                <p>Current progress: Johto Pokemon</p>
-                <div align="center">
-                    <p>Search: <input type="text" style="color: black;" ng-model="Search.name" placeholder="Search" size="50px"/></p>
-                </div>
-                <br>
+            <header style="background-image: url('image/background/top.png'); background-size: 100% 100%; text-shadow: 0 0 4px #000;">
+                @if (empty($myName))
+                    <h1 align="center">My Pokedex</h1>
+                @else
+                    <h1 align="center">Welcome {{ $myName }}</h1>
+                @endif
+                <h4>Here, you can search for info about pokemon (&copy Pokemon Company) that you need.</h4>
+                <h4>Current progress: Johto Pokemon</h4>
+                @if (!empty($myName))
+                    <div align="center">
+                        <p>Search: <input type="text" style="color: black;" ng-model="Search.name" placeholder="Search" size="50px"/></p>
+                        <form action="/" method="get">
+                            <div style="color: black">
+                                <input type = "submit" value = "Log out" />
+                            </div>
+                        </form>
+                    </div>
+                    <br>
+                @endif
             </header>
 
             <article style="background-image: url('image/background/middle.png'); background-size: 100% 100%;">
+                @if (!empty($myName))
                 <accordion close-others="true">
                     <accordion-group ng-repeat="group in filteredPokemon = (pokemon | filter:Search)">
                         <accordion-heading style="background-color: #a00">
@@ -283,6 +295,25 @@
                         No Result
                     </div>
                 </accordion>
+                @else
+                    <br>
+                    <form action="/enter" method="get">
+                        <input type = "hidden" name = "_token" value = "<?php echo csrf_token() ?>">
+                        <table border="0" cellspacing="0" align="center" style="text-align: center">
+                            <tr>
+                                <td>Enter your name</td>
+                                <td><input type = "text" name = "myName" placeholder="Name"/></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align: center">
+                                    <input type = "submit" value = "Register" />
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                    <br>
+                @endif
+
             </article>
 
             <footer style="background-image: url('image/background/bottom.png'); background-size: 100% 100%;">
