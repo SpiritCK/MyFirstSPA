@@ -17,6 +17,7 @@ class ViewTest extends TestCase
     public function testHome()
     {
         $this->get('/')
+            ->assertStatus(200)
             ->assertSee('Enter your name');
     }
     /**
@@ -26,7 +27,10 @@ class ViewTest extends TestCase
      */
     public function testRegister()
     {
-        $this->get('/test')
-            ->assertSee('Welcome Hello World');
+        //$this->get('/test')
+        //    ->assertSee('Welcome Hello World');
+        $this->json('GET', '/enter', ['myName'=>'Hello'])
+            ->assertStatus(200)
+            ->assertSee('Welcome Hello');
     }
 }

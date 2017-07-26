@@ -13,7 +13,7 @@ The following features are still to be updated (not sure when):
 - Add details about pokemon (attack type effectivity, evolution and pre-evolution).
 
 ## How to Install
-For Linux user, make sure you have [composer](https://getcomposer.org/) and php installed
+For UNIX user, make sure you have [composer](https://getcomposer.org/) and php installed
 ```
 sudo apt-get install composer
 sudo apt-get install php
@@ -34,6 +34,12 @@ and open the link provided. Enjoy My Pokedex to your heart content :)
 
 P.S.
 If `composer install` doesn't work, there are some library missing from your php. Try google because i forgot what libraries needed :)
+
+## Unit Testing
+For UNIX user, enter the following command to do unit testing
+```
+./vendor/bin/phpunit
+```
 
 ## Screenshots
 ![screenshot0](https://user-images.githubusercontent.com/23207046/28584009-63c46d0c-7195-11e7-9a07-e413014a3722.png)
