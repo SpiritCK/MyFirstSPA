@@ -18,4 +18,10 @@ class Registration extends Controller
             ]);
         }
     }
+
+    public function testRegister(){
+        //Retrieve the name input field
+        $request = new Request(['myName'=>'Hello World']);
+        return $this->postRegister($request);
+    }
 }
